@@ -225,6 +225,9 @@ user_pref("layout.word_select.eat_space_to_next_word", false);
 
 user_pref("media.ffmpeg.vaapi.enabled", true);
 
+// PREF: disable Firefox Sync
+user_pref("identity.fxaccounts.enabled", false);
+
 // PREF: disable login manager
 user_pref("signon.rememberSignons", false);
 
